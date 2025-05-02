@@ -11,6 +11,7 @@
         @theme {
           --color-ghostter-black: #18161C;
           --color-ghostter-black2: #211E25;
+          --color-ghostter-black3: rgb(24, 22, 28, 0);
           --color-ghostter-white: #E3E1EE;
           --color-ghostter-purple: #7015EF;
           --color-ghostter-gray: #666567;
@@ -95,13 +96,16 @@
             </div>
         </div>
         <div id="main-content" class="w-full overflow-auto max-h-screen">
-            <div class="p-3 w-full border-b brder-ghostter-white">
-                <a href="index.html" class="sticky top-0">
-                    <div class="flex gap-5 cursor-pointer hover:bg-ghostter-black2 p-2 max-w-29 rounded-full">
-                        <img src="imgs/icones/back.svg" alt="">
-                        <span class="text-2xl font-bold">Post</span>
-                    </div>
-                </a>
+            <div class="p-3 w-full border-b border-ghostter-white">
+                <div class="sticky top-0 bg-ghostter-black">
+                    <a href="index.html" >
+                        <div class="flex gap-5 cursor-pointer hover:bg-ghostter-black2 p-2 max-w-29 rounded-full">
+                            <img src="imgs/icones/back.svg" alt="">
+                            <span class="text-2xl font-bold">Post</span>
+                        </div>
+                    </a>
+
+                </div>
                 <div>
                     <div >
                         <div class="flex justify-self-auto items-start gap-2.5 ">
@@ -161,7 +165,26 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                </div>
+                <div class="flex justify-self-auto flex-wrap items-start gap-2.5 border-b border-ghostter-white p-3 cursor-pointer hover:bg-ghostter-black2 transition-all duration-200">
+                    <img src="imgs/icones/avatar.png" alt="">
+                    <div class="max-w-fit">
+                      <span class="text-xl font-bold">Krystal</span>
+                      <span class="text-ghostter-gray">@ceciTwT</span>
+                      <span class="text-ghostter-gray"> - Jan 29</span>
+                      <p class="mt-2 mb-1">Que horror 😱😱😱😱😱</p>
+                      <div class="flex gap-10 mt-4 mb-1">
+                        <div class="flex gap-1 text-sm text-ghostter-gray">
+                          <img src="imgs/icones/coments.svg" alt="">
+                          <span>6</span>
+                        </div >
+                        <div class="flex gap-1 text-sm text-ghostter-gray">
+                          <img src="imgs/icones/likes.svg" alt="">
+                          <span>100</span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="sidebar"
